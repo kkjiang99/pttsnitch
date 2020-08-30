@@ -1,0 +1,17 @@
+env = "development"
+
+[redis]
+host = "redis"
+port = 6379
+
+[ptt_crawler]
+host       = "https://www.ptt.cc"
+allpostURL = "/bbs/allpost/index.html"
+# 紀錄已下載links多久hr
+fchLnkExHr = 24
+# 取得1 + fetchExtPageNum頁all post links
+fetchExtPageNum = 0
+# links channel 上限
+linksChCap = 500
+# posts channel 上限
+postsChCap = 500
